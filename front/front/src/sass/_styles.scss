@@ -1,0 +1,31 @@
+@import "variables";
+@import "mixins";
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 100% $font-stack;
+}
+
+h2 {
+  color: $primary-color;
+}
+
+h4 {
+  color: $primary-color;
+}
+.btn,
+.btn-primary {
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+.btn:hover {
+  background-color: $danger-color !important;
+  border-color: $danger-color !important;
+}
+a:hover {
+  text-decoration: none;
+}
