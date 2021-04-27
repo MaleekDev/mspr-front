@@ -14,4 +14,8 @@ export class HomeComponent implements OnInit {
   navToConcert(pageName: string): void {
     this.router.navigate([`${pageName}`]);
   }
+
+  navToBilleterie(pageName: string): void {
+    this.router.navigate([`${pageName}`]);
+  }
 }

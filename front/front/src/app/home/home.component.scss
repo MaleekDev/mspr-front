@@ -1,8 +1,9 @@
 @import "src/sass/variables";
 
 .message {
-  background-color: $danger-color;
+  background-color: $petit-gris;
   text-align: center;
+  height: 60px;
   p {
     color: $white;
     padding: 5px;

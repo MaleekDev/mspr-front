@@ -8,6 +8,10 @@
 
 body {
   font: 100% $font-stack;
+  background-image: url(../img/background-site.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
 }
 
 h2 {
@@ -29,3 +33,15 @@ h4 {
 a:hover {
   text-decoration: none;
 }
+    h1 {
+      color: $white;
+      padding-left: 50px;
+      padding-top: 94px;
+      
+    }
+    #photo-bckg {
+      background-image: url(../img/150-1504752_ultra-miami-set-times-ultra-music-festival-2011.jpg);
+      background-size: cover;
+      background-position: center;
+      
+    }
