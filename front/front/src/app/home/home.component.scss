@@ -14,11 +14,22 @@
   width: 100px;
 }
 .billeterie {
-  background-image: url("https://cdn.pixabay.com/photo/2017/11/24/10/43/admission-2974645_1280.jpg");
+  background-image: url("https://images.squarespace-cdn.com/content/v1/56bbcc4659827e5156d54504/1603789195253-NVQR8XYE9OOULWQ38M32/ke17ZwdGBToddI8pDm48kKAwwdAfKsTlKsCcElEApLR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UegTYNQkRo-Jk4EWsyBNhwKrKLo5CceA1-Tdpfgyxoog5ck0MD3_q0rY3jFJjjoLbQ/travispress+photo.jpg?format=1500w");
+  background-position: center;
+  background-size: cover;
   padding: 60px;
+  border-radius: 20px;
+  margin: 30px;
   p {
     color: $white;
-  
+    text-shadow: rgb(44, 44, 44) 1px 1px 15px;
+  }
+  h4{
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+    text-shadow: rgb(24, 24, 24) 1px 1px 15px;
+    
   }
 }
 .actualites {
@@ -27,5 +38,8 @@
 }
 
 h2 {
+  font-size: 60px;
+  color: $white;
+  text-shadow: rgb(24, 24, 24) 1px 1px 15px;
   padding: 30px 20px 30px 40px;
 }
